@@ -24,7 +24,7 @@ from math import pi
 
 def generate_launch_description():
     # Get the urdf file
-    TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
+    # TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
     TURTLEBOT3_MODEL = "waffle_pi"
     
     model_folder = 'turtlebot3_' + TURTLEBOT3_MODEL
